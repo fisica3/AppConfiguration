@@ -8,7 +8,7 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: FunctionApp/publish
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 3.1.x
-  WORKING_DIRECTORY: FunctionApp
+  WORKING_DIRECTORY: examples/DotNetCore/AzureFunction/
 jobs:
   build-and-deploy:
     runs-on: windows-latest
